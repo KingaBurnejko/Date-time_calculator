@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Time_Activity">
+
+        <TextView
+            android:id="@+id/H_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="H"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/H_1_input"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/H_1_input"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="32dp"
+            android:ems="10"
+            android:inputType="number"
+            android:text="0"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toStartOf="@+id/M_1_input"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/H_1" />
+
+        <TextView
+            android:id="@+id/M_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="M"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/M_1_input"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/M_1_input"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="32dp"
+            android:ems="10"
+            android:inputType="number"
+            android:text="0"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toStartOf="@+id/S_1_input"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/H_1_input"
+            app:layout_constraintTop_toBottomOf="@+id/M_1" />
+
+        <TextView
+            android:id="@+id/S_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="S"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/S_1_input"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/S_1_input"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="32dp"
+            android:ems="10"
+            android:inputType="number"
+            android:text="0"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/M_1_input"
+            app:layout_constraintTop_toBottomOf="@+id/S_1" />
+
+        <TextView
+            android:id="@+id/H_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="140dp"
+            android:text="H"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/H_2_input"
+            app:layout_constraintTop_toBottomOf="@+id/H_1" />
+
+        <EditText
+            android:id="@+id/H_2_input"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="32dp"
+            android:ems="10"
+            android:inputType="number"
+            android:text="0"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toStartOf="@+id/M_2_input"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/H_2" />
+
+        <TextView
+            android:id="@+id/M_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="140dp"
+            android:text="M"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/M_2_input"
+            app:layout_constraintTop_toBottomOf="@+id/M_1" />
+
+        <EditText
+            android:id="@+id/M_2_input"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="32dp"
+            android:ems="10"
+            android:inputType="number"
+            android:text="0"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toStartOf="@+id/S_2_input"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/H_2_input"
+            app:layout_constraintTop_toBottomOf="@+id/M_2" />
+
+        <TextView
+            android:id="@+id/S_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="140dp"
+            android:text="S"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/S_2_input"
+            app:layout_constraintTop_toBottomOf="@+id/S_1" />
+
+        <EditText
+            android:id="@+id/S_2_input"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="32dp"
+            android:ems="10"
+            android:inputType="number"
+            android:text="0"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/M_2_input"
+            app:layout_constraintTop_toBottomOf="@+id/S_2" />
+
+        <Button
+            android:id="@+id/button_plus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="72dp"
+            android:padding="10dp"
+            android:text="+"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toStartOf="@+id/button_minus"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/M_2_input" />
+
+        <Button
+            android:id="@+id/button_minus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="72dp"
+            android:padding="10dp"
+            android:text="-"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/button_plus"
+            app:layout_constraintTop_toBottomOf="@+id/S_2_input" />
+
+        <Button
+            android:id="@+id/button_AC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="158dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="158dp"
+            android:padding="10dp"
+            android:text="AC"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_plus"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="40dp"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
